@@ -1,38 +1,337 @@
 .App {
   text-align: center;
+  
+  
+}
+.sliderallaong{
+  margin-right: 21px;
+}
+.btnnav{
+  background: transparent;
+  border: none;
 }
 
+body{
+
+background-color: black;
+}
+.sliderlist{
+  display: flex;
+  list-style-type: none;
+  color: rgb(254, 254, 254);
+   margin-right: 41px;
+  justify-content: center;
+  font-size: 15px;
+}
+.navigateimage{
+  height :44px;
+}
+.sbdmoon{
+  margin-left: 9px;
+}
+.slidernavigation{
+  position: relative;
+  top: 100px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.currMoonSec{
+
+  background: url("https://i.gifer.com/IrM.gif");
+justify-content: center;
+background-repeat: no-repeat;
+margin: 12px;
+border-radius: 12px;
+background-position: center;
+background-size:100% 100%;
+box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+/* Optionally, you can add other styles to the section */
+
+background-color: #f0f0f0;
+
+
+}
+.moonbydateSec{
+  background: url("https://i.gifer.com/410A.gif");
+justify-content: center;
+background-repeat: no-repeat;
+margin: 12px;
+border-radius: 12px;
+background-position: center;
+background-size:cover;
+box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+/* Optionally, you can add other styles to the section */
+
+}
+.starchartsec{
+  background: url("https://i.gifer.com/BSPY.gif");
+  justify-content: center;
+  background-repeat: no-repeat;
+  margin: 12px;
+  border-radius: 12px;
+  background-position: center;
+  background-size:cover;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.navbar{
+  justify-content: center;
+  background-color: white;
+  height: 39px;
+  position: sticky;
+  top: 0px; /* Adjust the value as per your desired position */
+  background-color: rgb(255, 255, 255);
+
+
+  z-index: 100;
+
+}
+.credit{
+  font-family: 'Sofia';
+  font-size: 23px;
+  color: #f0f0f0;
+}
+.footerback{
+  background-color: #060606;
+}
+.credit a{
+  text-decoration: none;
+}
+.navbarBtn{
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  list-style-type: none;
+  display: flex;
+  margin-right: 19px;
+  justify-content: center;
+}
+.navBtn{
+  margin-left: 8px;
+  cursor: pointer;
+}
+.slider{
+  justify-content: center;
+}
+.sliderlist{
+  margin-right: 24px;
+  justify-content: center;
+}
+.head{
+ 
+  margin-left: 5px;
+  color: rgb(255, 255, 255);
+  font-family: "Audiowide", sans-serif; 
+}
+.moonimage{
+  height: 49vh;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.lablesStar{
   color: white;
+  font-family: "Audiowide", sans-serif;
 }
 
-.App-link {
-  color: #61dafb;
+.starimage {
+  width: 100%;
+  max-width: 800px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+/* CSS for smaller screens */
+@media (max-width: 768px) {
+  .starimage {
+    width: 100%;
+    max-width: 500px;
   }
 }
+
+.starchartform{
+  
+  color: rgb(252, 252, 252);
+  font-size: 20px;
+  font-family: "Audiowide", sans-serif; 
+  background: url("https://i.gifer.com/Ir9.gif");
+}
+.starchartform input{
+ 
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+
+}
+input[type="date"] {
+  border: 1px solid #ccc;
+  font-family: "Audiowide", sans-serif; 
+  border-radius: 5px;
+  padding: 8px;
+}
+input[type="date"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 8px;
+}
+
+
+
+.dateinput{
+  margin-right: 9px;
+}
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+/* Styling the form container */
+.starchartform {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+}
+
+/* Styling for the form labels */
+.starchartform label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Styling for the form inputs */
+.starchartform input[type="date"],
+.starchartform select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Styling for the form select dropdown */
+.starchartform select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='32' height='32'%3E%3Cpath d='M 0 4 L 32 4 L 16 28 z' fill='%23ccc'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+}
+
+/* Styling for the form button */
+.starchartform button {
+  background-color: #5c9cea;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the form button on hover */
+.starchartform button:hover {
+  background-color: #4a8dd6;
+}
+
+.image-container {
+  overflow: hidden;
+  width: 300px; /* Set the desired width of the image container */
+  height: 300px; /* Set the desired height of the image container */
+}
+
+#zoom-image {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.2s ease;
+}
+.blink-2 {
+	animation: blink-2 0.9s infinite both;
+}
+
+@keyframes blink-2 {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
